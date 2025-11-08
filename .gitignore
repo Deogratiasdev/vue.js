@@ -28,3 +28,7 @@ coverage
 /cypress/screenshots/
 
 __screenshots__/
+
+# Environment variables and development build
+.env
+dev-dist/
