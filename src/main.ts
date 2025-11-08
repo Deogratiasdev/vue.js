@@ -1,3 +1,4 @@
+import { registerSW } from 'virtual:pwa-register'
 import './assets/main.css'
 
 import { createApp } from 'vue'
@@ -12,3 +13,5 @@ app.use(createPinia())
 app.use(router)
 
 app.mount('#app')
+
+registerSW({ immediate: true })
